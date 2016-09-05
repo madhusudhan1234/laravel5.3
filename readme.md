@@ -193,3 +193,9 @@ In index.blade.php file which is situated inside of carts directory just add the
 This is the simple flow of to make configure for the modules to develop the moduler application. we can add the 
 styles and javascript for each module. Again some stylesheet and javascript files are required for all modules 
   for this we can make the common module which is the master for all the modules.
+  
+  I followed these links before starting this project
+  
+ [http://laraveldaily.com/how-to-create-a-laravel-5-package-in-10-easy-steps/] (http://laraveldaily.com/how-to-create-a-laravel-5-package-in-10-easy-steps/)
+ [http://stackoverflow.com/questions/27661322/how-create-package-in-laravel-5](http://stackoverflow.com/questions/27661322/how-create-package-in-laravel-5) 
+[  https://laracasts.com/discuss/channels/tips/developing-your-packages-in-laravel-5](  https://laracasts.com/discuss/channels/tips/developing-your-packages-in-laravel-5)
