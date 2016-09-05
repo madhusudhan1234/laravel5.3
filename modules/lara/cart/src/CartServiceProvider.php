@@ -15,9 +15,9 @@ class CartServiceProvider extends ServiceProvider
     {
         $this->registerIncludes();
         $this->registerModelEvents();
-        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'core');
+        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'cart');
         $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
-        $this->loadTranslationsFrom(__DIR__ . '/../resources/lang', 'core');
+        $this->loadTranslationsFrom(__DIR__ . '/../resources/lang', 'cart');
     }
 
 
@@ -38,7 +38,6 @@ class CartServiceProvider extends ServiceProvider
                 include  __DIR__ . '/../routes/' . $fileInfo->getFilename();
             }
         }
-        // include _DIR_ . '/helpers.php';
     }
     /**
      * Register the Event Subscriber(Observer) for Models

@@ -15,6 +15,6 @@ class CartController extends Controller
      */
     public function index()
     {
-        return "Hello World";
+        return view('cart::carts.index');
     }
 }
