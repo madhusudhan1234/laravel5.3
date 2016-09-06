@@ -194,6 +194,16 @@ This is the simple flow of to make configure for the modules to develop the modu
 styles and javascript for each module. Again some stylesheet and javascript files are required for all modules 
   for this we can make the common module which is the master for all the modules.
   
+## Add Stylesheets and Javascript
+We are using Javascript file and scss file and compile that files using gulp, For this laravel-elixir need to be installed.
+For this install npm using the command 
+
+```php
+npm install
+```
+Create the assets folder inside of cart/resources folder and make two directories js and saas for javascript and 
+scss file respectively.
+
   I followed these links before starting this project
   
  [http://laraveldaily.com/how-to-create-a-laravel-5-package-in-10-easy-steps/] (http://laraveldaily.com/how-to-create-a-laravel-5-package-in-10-easy-steps/)
