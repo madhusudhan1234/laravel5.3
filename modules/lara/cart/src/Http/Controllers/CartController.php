@@ -3,6 +3,7 @@
 namespace Lara\Cart\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use Lara\Models\Cart;
 
 /**
  * Class CartController
@@ -10,11 +11,21 @@ use App\Http\Controllers\Controller;
  */
 class CartController extends Controller
 {
+
+    private $carts;
+
+    public function __construct(Cart $carts)
+    {
+        $this->carts = $carts;
+    }
+
     /**
      * @return string
      */
     public function index()
     {
-        return view('cart::carts.index');
+        $carts = $this->carts->all();
+
+        return view('cart::carts.index',compact('carts'));
     }
 }

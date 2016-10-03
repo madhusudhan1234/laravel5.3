@@ -1,0 +1,11 @@
+{
+  "name": "laravel5.3",
+  "description": "Bower Components",
+  "main": "",
+  "authors": [
+    "madhusudhan1234 <madhu@acd.edu.np>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/madhusudhan1234/laravel5.3",
+  "private": true
+}

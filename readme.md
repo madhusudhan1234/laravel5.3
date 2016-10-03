@@ -190,9 +190,17 @@ In index.blade.php file which is situated inside of carts directory just add the
 @endsection
 ```
 
-This is the simple flow of to make configure for the modules to develop the moduler application. we can add the 
+This is the simple flow of to make configure for the modules to develop the modular application. we can add the 
 styles and javascript for each module. Again some stylesheet and javascript files are required for all modules 
   for this we can make the common module which is the master for all the modules.
+  
+
+## Add Migrations Files
+To add the migrations folder inside carts modules and run this command
+
+```php
+     php artisan make:migration  --path=modules/lara/cart/database/migrations create_carts_table --create=carts
+``` 
   
 ## Add Stylesheets and Javascript
 We are using Javascript file and scss file and compile that files using gulp, For this laravel-elixir need to be installed.

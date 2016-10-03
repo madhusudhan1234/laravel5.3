@@ -1,9 +1,9 @@
 {
-    "name": "lara/cart",
-    "description": "This is useful module",
+    "name": "madhu/core",
+    "description": "This is core file",
     "authors": [
         {
-            "name": "Madhu Sudhan",
+            "name": "madhusudhan1234",
             "email": "madhu@acd.edu.np"
         }
     ],
@@ -17,7 +17,7 @@
             "database"
         ],
         "psr-4": {
-            "Lara\\Cart\\": "src/"
+            "Lara\\Core\\": "src/"
         }
     },
     "extra": {
